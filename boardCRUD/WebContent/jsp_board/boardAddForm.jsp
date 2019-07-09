@@ -18,6 +18,7 @@
 
 <script>
     $(document).ready(function(){
+    //모든 조사가 끝난 뒤 실행	
     //    alert('jquery test');
     /* 입력폼 유효성 관련 요구사항
         1. 모든 폼은 공백 또는 "" 문자는 입력되면 안된다.
