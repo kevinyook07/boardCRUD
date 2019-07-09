@@ -42,7 +42,7 @@
         statement.executeUpdate(); // insert 쿼리를 실행
     
     //  쿼리 실행후 boardList.jsp 페이지로 이동하는 코드 - boardList.jsp페이지를 만들지 않아서 주석처리 해둠    
-    //  response.sendRedirect(request.getContextPath()+"/jsp_board/boardList.jsp");
+    response.sendRedirect(request.getContextPath()+"/jsp_board/boardList.jsp");
     } catch(Exception e) {
         e.printStackTrace();
         out.print("입력 예외 발생"); //  response.sendRedirect(request.getContextPath()+"/jsp_board/boardAddForm.jsp");
